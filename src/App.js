@@ -16,7 +16,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <form className="App" onSubmit={this.handleSubmit}>
+      <form className="App">
         <label>
           <h3>Tooltip Position:</h3>
           <select
