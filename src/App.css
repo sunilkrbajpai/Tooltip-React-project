@@ -16,6 +16,7 @@ h3 {
 }
 .btn {
   height: 50px;
+  width: 200px;
   margin-top: 70px !important;
   font-size: 18px !important;
   color: white !important;
@@ -23,4 +24,17 @@ h3 {
 }
 .btn:hover {
   background-color: rgb(15, 134, 189) !important;
+}
+.btn:hover span {
+  display: none;
+}
+.btn:hover:after {
+  content: "ToolTip!";
+  transition-delay: 0.4s;
+}
+@media only screen and (max-width: 600px) {
+  .btn {
+    width: 150px !important;
+    font-size: 14px !important;
+  }
 }
