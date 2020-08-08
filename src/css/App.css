@@ -5,16 +5,19 @@ body {
   width: 100%;
   background-color: rgb(243, 211, 243);
 }
+
+/* heading */
 h3 {
   color: rgb(132, 71, 160);
   font-size: 22px;
 }
+/* dropdown */
 .dropdown {
   width: 200px;
   font-size: 16px;
   padding: 10px;
 }
-
+/* button styles */
 .btn {
   height: 50px;
   width: 200px;
@@ -27,16 +30,14 @@ h3 {
 .btn:hover {
   background-color: rgb(15, 134, 189) !important;
 }
-.btn:hover span {
-  display: none;
-}
+/* btn text */
 .btn::after {
   content: "Hover Me";
 }
 .btn:hover::after {
   content: "ToolTip!";
-  transition-delay: 0.4s;
 }
+/* for different screens */
 @media only screen and (max-width: 600px) {
   .btn {
     width: 150px !important;
@@ -52,6 +53,7 @@ h3 {
 
 /* tooltip css follows */
 
+/* top tooltip css */
 .tooltip {
   margin-top: 70px !important;
   position: relative;
@@ -90,6 +92,7 @@ h3 {
 
 /* ########################################################################### */
 
+/* bottom tooltip css */
 .tooltip .tooltiptext-bottom {
   visibility: hidden;
   width: 120px;
@@ -120,6 +123,7 @@ h3 {
 
 /* ############################################################### */
 
+/* left tooltip css */
 .tooltip .tooltiptext-left {
   visibility: hidden;
   width: 120px;
@@ -150,6 +154,7 @@ h3 {
 
 /* ####################################################################### */
 
+/* right tooltip css */
 .tooltip .tooltiptext-right {
   visibility: hidden;
   width: 120px;
