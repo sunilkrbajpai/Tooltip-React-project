@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe691be0e6e9746baa6fd8ad16986a82",
+    "revision": "964d82e17510a1c99bee6af0d7ff112e",
     "url": "/Tooltip-React-project/index.html"
   },
   {
-    "revision": "c00305937c70ac7fcd0a",
+    "revision": "af23790a94beb839b221",
     "url": "/Tooltip-React-project/static/css/main.c99228a5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tooltip-React-project/static/js/2.6bc5b324.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c00305937c70ac7fcd0a",
-    "url": "/Tooltip-React-project/static/js/main.26ba7fbc.chunk.js"
+    "revision": "af23790a94beb839b221",
+    "url": "/Tooltip-React-project/static/js/main.22e9d81c.chunk.js"
   },
   {
     "revision": "f4a02a5cd08ce7b4c352",
